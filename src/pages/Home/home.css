@@ -1,0 +1,81 @@
+body {
+    background-color: #757272d9;
+    /* Define a cor de fundo para o corpo da página */
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.lista-filmes {
+    max-width: 800px;
+    /* Define a largura máxima para o elemento com classe "lista-filmes" */
+    margin: 14px auto;
+    /* Define as margens superior e inferior para 14px e as margens laterais como "auto" para centralizar o elemento horizontalmente */
+}
+
+.lista-filmes article {
+    width: 100%;
+    /* Define a largura do elemento "article" como 100% */
+    background-color: #FFF;
+    /* Define a cor de fundo para o elemento "article" */
+    padding: 15px;
+    /* Define o preenchimento interno do elemento "article" como 15px */
+    border-radius: 4px;
+    /* Define o raio dos cantos do elemento "article" como 4px */
+}
+
+.lista-filmes strong {
+    margin-bottom: 14px;
+    /* Define a margem inferior do elemento "strong" como 14px */
+    text-align: center;
+    /* Define o alinhamento de texto do elemento "strong" como centralizado */
+    font-size: 22px;
+    /* Define o tamanho da fonte do elemento "strong" como 22px */
+    display: block;
+    /* Define o elemento "strong" como um elemento de bloco */
+}
+
+.lista-filmes img {
+    width: 900px;
+    /* Define a largura da imagem como 900px */
+    max-width: 100%;
+    /* Define a largura máxima da imagem como 100% */
+    /* max-height: 340px; */
+    max-height: 1000px;
+    /* Define a altura máxima da imagem como 340px */
+    object-fit: cover;
+    /* Define o modo de ajuste da imagem como "cover" para preencher a caixa de imagem */
+    display: block;
+    /* Define a imagem como um elemento de bloco */
+    border-top-left-radius: 8px;
+    /* Define o raio do canto superior esquerdo da imagem como 8px */
+    border-top-right-radius: 8px;
+    /* Define o raio do canto superior direito da imagem como 8px */
+}
+
+.lista-filmes a {
+    display: flex;
+    /* Define o elemento "a" como um flex container */
+    align-items: center;
+    /* Define o alinhamento vertical do conteúdo dentro do elemento "a" como centralizado */
+    justify-content: center;
+    /* Define o alinhamento horizontal do conteúdo dentro do elemento "a" como centralizado */
+    padding: 10px 0;
+    /* Define o preenchimento superior e inferior do elemento "a" como 10px e as margens laterais como 0 */
+    font-size: 24px;
+    /* Define o tamanho da fonte do elemento "a" como 24px */
+    background-color: #116FEB;
+    /* Define a cor de fundo para o elemento "a" */
+    text-decoration: none;
+    /* Remove a decoração de texto padrão (sublinhado) do elemento "a" */
+    color: #FFF;
+    /* Define a cor do texto do elemento "a" como branco (#FFF) */
+    border-bottom-left-radius: 8px;
+    /* Define o raio do canto inferior esquerdo do elemento "a" como 8px */
+    border-bottom-right-radius: 8px;
+    /* Define o raio do canto inferior direito do elemento "a" como 8px */
+}
